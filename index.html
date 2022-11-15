@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/0b9574c8b5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        <center>
+            <img src="yessindahcitra.jpeg" data-aos="zoom-in">
+            <h1 data-aos-easing="ease" data-aos="zoom-in" data-aos-delay="400">Yessindah Citra Raya</h1>
+            <p data-aos-easing="ease" data-aos="fade-up" data-aos-delay="800">Mahasiswi Institut Informatika dan Bisnis Darmajaya</p>
+            <div class="icon"  data-aos-easing="ease" data-aos="fade-right" data-aos-delay="1200">
+                <a href="" class="nav-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="" class="nav-link" target="_blank"><i class="fab fa-github-square"></i></a>
+                <a href=""></i></i></a>
+                <a href="" class="nav-link" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                <a href="" class="nav-link" target="_blank"><i class="fab fa-youtube-square"></i></i></a>
+            </div>
+            <ul data-aos-easing="ease" data-aos="fade-left" data-aos-delay="1200">
+                <li><a href="porto.html">Experince</a></li>
+                <li><a href="">Awards</a></li>
+                <li><a href="">Ceritifications</a></li>
+                <li><a href="">Portofolio</a></li>
+            </ul>
+        </center>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        $(window).scroll(function() {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        });
+    </script>
+</body>
+</html>
